@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://monda31.github.io/thegamblecode/sitemap.xml
