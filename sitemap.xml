@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://monda31.github.io/thegamblecode/</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/fibonacci-roulette.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/roulette-house-edge.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/roulette-stop-loss.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/martingale-roulette.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/monte-carlo-fallacy.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/is-roulette-rigged.html</loc></url>
-<url><loc>https://monda31.github.io/thegamblecode/roulette-bets-odds-payouts.html</loc></url>
+<url><loc>https://monda31.github.io/thegamblecode/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/fibonacci-roulette.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/martingale-roulette.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/monte-carlo-fallacy.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/is-roulette-rigged.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/roulette-bets-odds-payouts.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/roulette-house-edge.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/roulette-stop-loss.html</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://monda31.github.io/thegamblecode/about.html</loc><lastmod>2026-11-13</lastmod></url>
 </urlset>
