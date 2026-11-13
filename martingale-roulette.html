@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Does the Martingale System Work in Roulette? Simulation and Numbers</title>
+<meta name="description" content="The Martingale doubles your bet after every loss. We show what that costs, how few losses a bankroll can survive, and what a 200-spin simulation says.">
+<link rel="canonical" href="https://monda31.github.io/thegamblecode/martingale-roulette.html">
+<link rel="icon" href="logo.jpg">
+<meta property="og:title" content="Does the Martingale System Work in Roulette? Simulation and Numbers"><meta property="og:description" content="The Martingale doubles your bet after every loss. We show what that costs, how few losses a bankroll can survive, and what a 200-spin simulation says."><meta property="og:type" content="article"><meta property="og:url" content="https://monda31.github.io/thegamblecode/martingale-roulette.html">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><div class="wrap"><a class="brand" href="index.html"><img src="logo.jpg" alt="The Gamble Code logo">The Gamble Code</a>
+<nav><a href="index.html#guides">Guides</a><a href="index.html#articles">Articles</a><a href="tracker/Session_Tracker_Roulette_EN.pdf">Free tracker</a></nav></div></header>
+<main class="wrap"><h1>Does the Martingale system work in roulette?</h1>
+<p class="lead">It wins small amounts often and loses large amounts rarely. Over time that is not an advantage.</p>
+<h2>The idea</h2>
+<p>You bet on an even-money outcome (red/black, odd/even) and double the stake after each loss. When you finally win, you recover all previous losses plus one base unit of profit.</p>
+<h2>How fast it grows</h2>
+<table><tr><th>Losses in a row</th><th>Total lost</th><th>Next bet</th></tr>
+<tr><td>4</td><td>15 units</td><td>16</td></tr><tr><td>6</td><td>63 units</td><td>64</td></tr><tr><td>8</td><td>255 units</td><td>256</td></tr><tr><td>10</td><td>1,023 units</td><td>1,024</td></tr></table>
+<h2>What a real bankroll can take</h2>
+<p>Say you start with 1,000 and bet 10. Six losses in a row costs 630 and the next bet would be 640, more than the 370 you have left. So the plan stops after six consecutive losses. On a European wheel the chance of six losses in a row starting from a given spin is 1.8%, about 1 in 55. That is small per attempt, but you make many attempts.</p>
+<h2>A simulation</h2>
+<p>We simulated 200 spins on a European wheel, starting with 1,000 and a base bet of 10, doubling after each loss and returning to 10 after a win, and stopping when the next bet cannot be placed (20,000 runs). About <b>69%</b> of runs hit a streak the bankroll could not cover. The average final balance was about <b>898</b> out of 1,000, which is a loss. These numbers come from our own simulation, not a published study, so treat them as an illustration.</p>
+<h2>Why it cannot work</h2>
+<ul><li>Every spin has a negative expected value (-2.7% on a European wheel). Doubling changes the shape of the results, not the average.</li><li>Tables have a maximum bet, which can block the next doubling even if you have the money.</li><li>The wins are tiny (one base unit per cycle) and the losses are big.</li></ul>
+<div class="box warn"><b>Bottom line.</b> If you use a progression, cap it. Decide the maximum number of steps before you start and treat reaching it as a loss you have already accepted. Our guides always state the maximum risk per attack up front.</div>
+<p>Related: <a href="fibonacci-roulette.html">the Fibonacci system</a> grows more slowly but has the same limits.</p>
+<div class="cta box"><b>Want the full plans in plain language?</b><br>Step-by-step roulette guides with fixed rules, a stop-loss and a beginner comic guide, in English and Italian.<br><a class="btn" href="https://payhip.com/thegamblecode">See the guides</a><a class="btn alt" href="https://www.etsy.com/shop/thegamblecode">Also on Etsy</a></div></main>
+<footer><div class="wrap"><p><b>18+ only.</b> Gambling can be addictive. No method or system guarantees wins: every roulette bet has a negative expected value. Play only with money you can afford to lose. Italy helpline: TVNGA 800 558822.</p>
+<p>The Gamble Code publishes educational material only. We do not run a betting service and are not affiliated with any casino.</p></div></footer></body></html>
